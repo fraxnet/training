@@ -12,7 +12,7 @@ class fraxmod4(models.Model):
     value2 = fields.Float(compute="_value_pc", store=True)
     description = fields.Text()
     start_datetime = fields.Datetime('Start time', default=lambda self: fields.Datetime.now())
-    value3 = fields.char()
+    value3 = fields.Char()
     
 
 
